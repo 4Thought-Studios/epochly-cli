@@ -2,9 +2,23 @@
   "name": "epochly-cli",
   "version": "0.1.0",
   "description": "CLI for assisting in development of the epochly app",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/4Thought-Studios/epochly-cli",
   "author": "Brad Dunn <brad.dunn@4thoughtstudios.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "yarn run build",
+    "flow": "flow"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "inquirer": "^6.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.75.0"
+  }
 }
