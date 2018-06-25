@@ -6,4 +6,4 @@ This is not a standalone library, but rather a packaged CLI that is probably onl
 
 ## Contributing
 
-Unless you are part of Epochly / 4Thought Studios development team, its probably not work contributing as this is for us. That being said, I'm not going to deny PRs or anything!
+Unless you are part of Epochly / 4Thought Studios development team, its probably not work contributing as its intended for internal development of our app - thank you though! That being said, I'm not going to deny PRs or anything!
