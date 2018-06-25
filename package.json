@@ -10,7 +10,7 @@
   "scripts": {
     "build": "babel src/ -d lib/",
     "prepublish": "yarn run build",
-    
+    "precommit": "pretty-quick --staged",
     "flow": "flow"
   },
   "dependencies": {
