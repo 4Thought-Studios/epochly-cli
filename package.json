@@ -11,7 +11,8 @@
     "build": "babel src/ -d lib/",
     "prepublish": "yarn run build",
     "precommit": "pretty-quick --staged",
-    "flow": "flow"
+    "flow": "flow",
+    "start": "yarn run build && node lib/index.js"
   },
   "dependencies": {
     "commander": "^2.15.1",
